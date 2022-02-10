@@ -1,4 +1,7 @@
 
+
+[WEB App: https://deep-learning-project-ifoa.herokuapp.com/](https://deep-learning-project-ifoa.herokuapp.com/)
+
 ```
 # Python version installed
 -> 3.8.10 --> add python to the global variable
@@ -11,7 +14,8 @@ pip --version
 pip install virtualenv
 virtualenv env
 source env/Scripts/activate
-pip install streamlit pandas pillow numpy opencv-python
+pip install streamlit pandas pillow numpy opencv-python-headless
+#pip install -r requirements.txt
 pip freeze > requirements.txt
 
 # Run the program
